@@ -1745,7 +1745,7 @@ function SettingsScreen({ navigation }) {
         </View>
         <View style={s.settingsDivider} />
         <View style={s.settingsStat}>
-          <Text style={s.settingsStatVal}>{format(new Date(), 'MMM ''yy')}</Text>
+          <Text style={s.settingsStatVal}>{format(new Date(), "MMM yyyy")}</Text>
           <Text style={s.settingsStatLbl}>Since</Text>
         </View>
       </View>
